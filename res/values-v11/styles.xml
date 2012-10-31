@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="HCLTheme" parent="Theme.Sherlock.Light">
+        <item name="android:actionBarStyle">@style/HCLActionBarStyle</item>
+        <item name="actionBarStyle">@style/HCLActionBarStyle</item>
+        <item name="android:actionBarTabStyle">@style/HCLActionBarTabStyle</item>
+        <item name="actionBarTabStyle">@style/HCLActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/HCLActionBarTabTextStyle</item>
+    </style>
+
+    <style name="HCLActionBarStyle" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">@drawable/hcl_actionbar_drawable</item>
+        <item name="background">@drawable/hcl_actionbar_drawable</item>
+        <item name="android:titleTextStyle">@style/HCLActionBarTitle</item>
+    </style>
+
+    <style name="HCLActionBarTitle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="HCLActionBarTabBarStyle" parent="Widget.Sherlock.ActionBar.TabBar">
+        <item name="android:background">@color/HCL_black</item>
+        <item name="background">@color/HCL_black</item>
+    </style>
+
+    <style name="HCLActionBarTabStyle" parent="Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_selector</item>
+    </style>
+    
+    <style name="HCLActionBarTabTextStyle" parent="Widget.Sherlock.ActionBar.TabText">
+        <item name="android:textColor">@drawable/actionbar_tab_text_selector</item>
+    </style>
+
+    
+    <!-- List items -->
+    <style name="ListItemStyle">
+        <item name="android:background">@color/HCL_black</item>
+    </style>
+
+    <style name="ListItemTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

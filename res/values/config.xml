@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Feed URLs -->
+    <string name="feed_hcl_all">http://www.hcl.hr/rss/vijesti.php</string>
+    <string name="feed_hcl_review">http://www.hcl.hr/rss/recenzije.php</string>
+    <string name="feed_hcl_announcements">http://www.hcl.hr/rss/najave.php</string>
+    <string name="feed_hcl_interview">http://www.hcl.hr/rss/intervjui.php</string>
+    <string name="feed_hcl_columns">http://www.hcl.hr/rss/kolumne.php</string>
+    <string name="feed_hcl_cheats">http://www.hcl.hr/rss/sifre-cheats.php</string>
+    
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_list_item_root"
+    style="@style/ListItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/news_list_item_image_container"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/news_list_item_root" >
+
+        <org.android.hcl.util.HCLImageView
+            android:id="@+id/news_list_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/news_list_item_progress"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/news_list_item_title"
+        style="@style/ListItemTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/news_list_item_image_container" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- App configuration -->
+    <string name="app_name">HCL</string>
+    <string name="title_activity_main">HCL</string>
+    <string name="title_activity_news">HCL Gaming Portal</string>
+    <string name="title_activity_details">Detalji</string>
+    
+    <!-- Menu items -->
+    <string name="tab_news_title">Vijesti</string>
+    <string name="tab_reviews_title">Recenzije</string>
+    <string name="tab_announcements_title">Najave</string>
+    <string name="tab_interview_title">Intervju</string>
+    <string name="tab_columns_title">Kolumne</string>
+    <string name="tab_cheats_title">Šifre</string>
+    
+    
+    <!-- Bundle IDs -->
+    <string name="bundle_feed">bundle_feed</string>
+    <string name="bundle_position">position</string>
+    
+    
+
+</resources>
